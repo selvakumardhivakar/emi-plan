@@ -33,7 +33,12 @@ function Dashboard() {
       )}
       <section className="heading">
         <h1>Welcome {user && user.name}</h1>
-        <h1>Email {user && user.email}</h1>
+        <h3>Email {user && user.email}</h3>
+        <h4>Phone: +0100000</h4>
+        <hr/>
+        <p>Due: $100</p> 
+        <p>Paid: $400</p>
+        <hr/>
       </section>
     </>
   );
