@@ -25,8 +25,12 @@ function Register() {
 
   useEffect(() => {
     if (isError) {
+<<<<<<< HEAD
       setError(message);
 
+=======
+      // toast.error(message)
+>>>>>>> main
     }
 
     if (isSuccess || user) {
@@ -118,7 +122,10 @@ function Register() {
               onChange={onChange}
             />
           </div>
+<<<<<<< HEAD
           <p>{error}</p>
+=======
+>>>>>>> main
           <div className="form-group">
             <button type="submit" className="btn btn-block">
               Submit
