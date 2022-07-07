@@ -25,16 +25,15 @@ function Dashboard() {
   return (
     <>
       {user ? (
-        <li>
-          <button className="btn" onClick={onLogout}>
-            <FaSignOutAlt /> Logout
-          </button>
-        </li>
+        <button className="btn logout" onClick={onLogout}>
+          <FaSignOutAlt /> Logout
+        </button>
       ) : (
         <></>
       )}
       <section className="heading">
         <h1>Welcome {user && user.name}</h1>
+        <h1>Email {user && user.email}</h1>
       </section>
     </>
   );

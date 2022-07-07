@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8000/api/users/";
+const API_URL = "https://8000-selvakumardhiva-emiplan-et9fw09dykx.ws-us52.gitpod.io/api/users/";
 
 // Register user
 const register = async (userData) => {
